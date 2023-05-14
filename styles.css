@@ -1,0 +1,50 @@
+h2 {
+  text-align: center;
+  color: #039e82;
+}
+
+/* Style pour le formulaire */
+#quiz-form {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style pour les questions */
+  .quiz-question {
+    margin-bottom: 10px;
+  }
+  
+  .quiz-question label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .quiz-question input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Style du bouton soumettre */
+  #submit-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #submit-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Style du score */
+  #score {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
